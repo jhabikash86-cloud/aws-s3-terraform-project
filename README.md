@@ -8,7 +8,7 @@ The architecture is explicitly designed around the **Principle of Least Privileg
 ---
 
 ## 🗺️ System Architecture Diagram
-![System Architecture Blueprint](/images/aws_secure_web_app_architecture.png)
+![System Architecture Blueprint](./images/aws_secure_web_app_architecture.png)
 
 ---
 
