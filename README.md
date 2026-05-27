@@ -38,3 +38,5 @@ The network topology is split across two separate Availability Zones (AZs) in th
 ## 🔒 Security Hardening Highlights (The "Why")
 1. **No Static Access Keys:** The EC2 instances utilize dynamic, short-lived credentials via an IAM Instance Profile to fetch local configuration scripts, removing the risk of credential leakage.
 2. **Asymmetric Security Groups:** The private EC2 tier utilizes strict ingress rules that *only* accept HTTP traffic originating specifically from the security group of the Application Load Balancer.
+
+   
