@@ -78,7 +78,7 @@ resource "aws_ecs_service" "gsd_fargate_service" {
 
   network_configuration {
     subnets          = [aws_subnet.private_1.id, aws_subnet.private_2.id] 
-    security_groups  = [aws_security_group.web_server.id] 
+    security_groups  = [aws_security_group.web_sg.id] 
     assign_public_ip = false
   }
 
